@@ -16,6 +16,16 @@
   font-style: normal;
 }
 
+
+.dynapuff-<uniquifier> {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 html {
   font-family: "Fuzzy Bubbles";
   font-size: 16px;
@@ -43,4 +53,23 @@ nav a:hover {
   color: #747474;
   text-decoration: underline;
   font-size: 18px;
+}
+
+main {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.title {
+  height: 500px;
+  
+}
+.title h1 {
+  text-transform: upperacse;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title h2 {
+  font-size: 30px
 }
