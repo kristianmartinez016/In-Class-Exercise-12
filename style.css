@@ -33,6 +33,7 @@ html {
   background-color:#bdf2ff;
 }
 
+/*nav*/
 nav {
  width: 100%;
  height: 100px;
@@ -60,6 +61,7 @@ main {
   margin: 0 auto;
 }
 
+/*title*/
 .title {
   height: 500px;
   
@@ -77,12 +79,46 @@ main {
 .board-section h2 {
   font-family: DynaPuff;
   font-weight: 500;
+  height: 50px
 }
 
+/*executive board*/
 .board {
+  height: 600px;
   width: 100%;
   display: flex;
-  text-align: center;
   font-weight: bold;
-  justify-content: space-between;
+  font-size: 1.25rem
+}
+
+.member, .image {
+  background-size: cover;
+  background-position: center;
+}
+
+.member {
+  flex: 10px;
+  padding-top: 550px;
+  padding-left: 10px;
+  color: white;
+}
+
+.yoshi {
+  background-image: url("https://preview.redd.it/pt46vgcqhge21.png?width=640&crop=smart&auto=webp&s=46525394c894ae74413c10f7a0042f95f849264b");
+  color: #262626;
+
+}
+
+.venom {
+  background-image: url("https://www.alexrossart.com/cdn/shop/files/cruRD-30GM3vbgaWEfih34Yl6QwVnEBh69Lo4EkHS6daR4qvyq8o7XzL67FDOZgQ5t4QWFA6Q0JsEwrt-WD6gefRKh1HFH9O2NSWiosRG6sQSXI4cN_AcRouNfsFzuw9sd5MIWuPQtYFsflgmjtzn1zU_ZqAOLu9xZ3mWy19MkI_1024x1024.jpg?v=1719328278");
+  color: white;
+}
+
+.miku {
+  background-image: url("https://preview.redd.it/miku-in-fortnite-key-art-v0-cvdo8jzw2rce1.jpeg?auto=webp&s=826c4b2258258f856559d7a7d703a1e12a6848d7");
+}
+
+.gary {
+  background-image: url("https://i.redd.it/gqxpi4fbvn721.jpg");
+  color:#262626;
 }
