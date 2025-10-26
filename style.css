@@ -30,8 +30,9 @@ html {
   font-family: "Fuzzy Bubbles";
   font-size: 16px;
   color: #262626;
-  background-color:#bdf2ff;
+  background-color:#a5edff;
 }
+
 
 /*nav*/
 nav {
@@ -61,7 +62,8 @@ main {
   margin: 0 auto;
 }
 
-/*title*/
+
+/*title, names, and dates*/
 .title {
   height: 500px;
   
@@ -76,19 +78,32 @@ main {
   font-weight: 700;
 }
 
+.name {
+  font-family: DynaPuff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.date {
+  font-style: italic;
+}
+
+
+/*executive board*/
 .board-section h2 {
   font-family: DynaPuff;
   font-weight: 500;
-  height: 50px
+  height: 50px;
+  font-size: 2rem;
 }
 
-/*executive board*/
 .board {
   height: 600px;
   width: 100%;
   display: flex;
   font-weight: bold;
-  font-size: 1.25rem
+  font-size: 1.25rem;
+  margin-bottom: 150px;
 }
 
 .member, .image {
@@ -98,15 +113,14 @@ main {
 
 .member {
   flex: 10px;
-  padding-top: 550px;
-  padding-left: 10px;
+  padding-top: 520px;
+  padding-left: 20px;
   color: white;
 }
 
 .yoshi {
   background-image: url("https://preview.redd.it/pt46vgcqhge21.png?width=640&crop=smart&auto=webp&s=46525394c894ae74413c10f7a0042f95f849264b");
   color: #262626;
-
 }
 
 .venom {
@@ -121,4 +135,56 @@ main {
 .gary {
   background-image: url("https://i.redd.it/gqxpi4fbvn721.jpg");
   color:#262626;
+}
+
+
+/*recent works*/
+.work-section h2 {
+  font-family: DynaPuff;
+  font-weight: 500;
+  font-size: 2rem;
+  height: 35px;
+}
+
+.work {
+  height: 1600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 150px;
+}
+
+.project, .image {
+  background-size: cover;
+  background-position: center;
+}
+
+.project {
+  flex: 10px;
+  padding-top: 320px;
+  padding-right: 20px;
+  color: white;
+  margin: 15px 0px;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.RPG {
+  background-image: url("https://preview.redd.it/fat-yoshi-in-hd-v0-p40q1cbi0x0c1.jpg?width=1080&crop=smart&auto=webp&s=17c486dac9d76cd9b2d6fb829c05ffd8dcc8748c");
+}
+
+.rivals {
+  background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,w_1279,h_719,x_0,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/esports_illustrated/01jq7wwqd0jzcn73y33x.png");
+}
+
+.fortnite {
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/6786822e60af125c6c9cfc1e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds");
+  background-position: 0 -59px;\
+}
+
+.idk {
+  background-image: url("https://pbs.twimg.com/media/DnT5GcFWwAEpDNV.jpg");
+  background-position: 0 -80px
 }
