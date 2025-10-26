@@ -65,11 +65,24 @@ main {
   
 }
 .title h1 {
-  text-transform: upperacse;
-  font-size: 50px;
-  font-weight: bold;
+  font-family: DynaPuff;
+  font-size: 70px;
 }
 
 .title h2 {
-  font-size: 30px
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.board-section h2 {
+  font-family: DynaPuff;
+  font-weight: 500;
+}
+
+.board {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  justify-content: space-between;
 }
