@@ -209,8 +209,42 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.footer {
+.footer-section {
+  margin: 0 auto;
+  width: 85vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.footer-links {
+  width: 300px;
+  height: 200px;
+  display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer-apply {
+  border-radius: 15px;
+  padding: 10px;
+  font-family: "Fuzzy Bubbles";
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: #262626;;
+}
+
+.copyright {
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: #747474;
 }
