@@ -147,7 +147,6 @@ main {
 }
 
 .work {
-  height: 1600px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -158,12 +157,12 @@ main {
 
 .project, .image {
   background-size: cover;
-  background-position: center;
+  background-position: relative;
 }
 
 .project {
   flex: 10px;
-  padding-top: 320px;
+  padding-top: 520px;
   padding-right: 20px;
   color: white;
   margin: 15px 0px;
@@ -181,10 +180,8 @@ main {
 
 .fortnite {
   background-image: url("https://imageio.forbes.com/specials-images/imageserve/6786822e60af125c6c9cfc1e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds");
-  background-position: 0 -59px;\
 }
 
 .idk {
   background-image: url("https://pbs.twimg.com/media/DnT5GcFWwAEpDNV.jpg");
-  background-position: 0 -80px
 }
