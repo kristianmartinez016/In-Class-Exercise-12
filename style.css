@@ -157,7 +157,7 @@ main {
 
 .project, .image {
   background-size: cover;
-  background-position: relative;
+  background-position: center;
 }
 
 .project {
@@ -176,12 +176,21 @@ main {
 
 .rivals {
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,w_1279,h_719,x_0,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/esports_illustrated/01jq7wwqd0jzcn73y33x.png");
+  background-position: left;
 }
 
 .fortnite {
   background-image: url("https://imageio.forbes.com/specials-images/imageserve/6786822e60af125c6c9cfc1e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds");
+  background-position: right;
 }
 
 .idk {
   background-image: url("https://pbs.twimg.com/media/DnT5GcFWwAEpDNV.jpg");
+}
+
+
+/*footer*/
+footer {
+  color: #262626;
+  
 }
